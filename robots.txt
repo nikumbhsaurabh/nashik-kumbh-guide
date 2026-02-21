@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nikumbhsaurabh.github.io/nashik-kumbh-guide/sitemap.xml
