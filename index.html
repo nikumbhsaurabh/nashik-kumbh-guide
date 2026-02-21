@@ -1,28 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Nashik Kumbh Yaatri Guide</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background: #ff9933;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        .hotel-card {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .book-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #e65100;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .book-btn:hover {
+            background: #bf360c;
+        }
+    </style>
+
 </head>
+
 <body>
 
-<h1>🕉️ Nashik Kumbh Yaatri Guide</h1>
+<div class="header">
+    <h1>🕉️ Nashik Kumbh Yaatri Guide</h1>
+</div>
 
-<h2>Welcome to Nashik Kumbh</h2>
-<p>This website helps pilgrims find hotels, maps and important places.</p>
+<div class="section">
+    <h2>Welcome to Nashik Kumbh</h2>
+    <p>This website helps pilgrims find hotels, maps and important places.</p>
+</div>
 
-<h2>Important Places</h2>
-<ul>
-    <li>Ramkund</li>
-    <li>Godavari Ghat</li>
-    <li>Panchavati</li>
-</ul>
+<div class="section">
+    <h2>Important Places</h2>
+    <ul>
+        <li>Ramkund</li>
+        <li>Godavari Ghat</li>
+        <li>Panchavati</li>
+    </ul>
+</div>
 
-<h2>Hotels Near Ramkund</h2>
+<div class="section">
+    <h2>Hotels Near Ramkund</h2>
 
-<div>
-    <h3>Hotel ABC ⭐⭐⭐⭐</h3>
-    <p>Distance: 500m from Ramkund</p>
-    <a href="#">Book Now</a>
+    <div class="hotel-card">
+        <h3>Hotel ABC ⭐⭐⭐⭐</h3>
+        <p>Distance: 500m from Ramkund</p>
+        <a href="#" class="book-btn">Book Now</a>
+    </div>
+
+    <div class="hotel-card">
+        <h3>Hotel Shree Stay ⭐⭐⭐</h3>
+        <p>Distance: 800m from Ramkund</p>
+        <a href="#" class="book-btn">Book Now</a>
+    </div>
+
 </div>
 
 </body>
