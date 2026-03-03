@@ -41,12 +41,28 @@
     <!-- HERO SECTION -->
     <section class="hero">
         <div class="overlay">
-            <h1>Nashik Kumbh Mela 2027</h1>
-            <p>Official Snan Dates • Hotels Near Ramkund • Travel Guide</p>
-            <a href="kumbh-snan-dates.html" class="hero-btn">Check Snan Dates</a>
+
+            <h1 id="hero-title">
+                Nashik Kumbh Mela 2027
+            </h1>
+
+            <p id="hero-subtitle">
+                Official Snan Dates • Hotels Near Ramkund • Travel Guide
+            </p>
+
+            <a href="kumbh-snan-dates.html" class="hero-btn" id="hero-btn">
+                Check Snan Dates
+            </a>
+
+            <!-- Language Toggle -->
+            <div class="lang-toggle">
+                <button onclick="setLanguage('en')">English</button>
+                <button onclick="setLanguage('mr')">मराठी</button>
+                <button onclick="setLanguage('hi')">हिन्दी</button>
+            </div>
+
         </div>
     </section>
-
     <!-- NAVBAR -->
     <div class="navbar">
         <ul>
@@ -92,7 +108,31 @@
         </p>
         <p>© 2026 All Rights Reserved</p>
     </div>
+    <script>
+        const translations = {
+            en: {
+                title: "Nashik Kumbh Mela 2027",
+                subtitle: "Official Snan Dates • Hotels Near Ramkund • Travel Guide",
+                button: "Check Snan Dates"
+            },
+            mr: {
+                title: "नाशिक कुंभ मेळा २०२७",
+                subtitle: "अधिकृत स्नान दिनांक • रामकुंड जवळील हॉटेल्स • प्रवास मार्गदर्शक",
+                button: "स्नान दिनांक पहा"
+            },
+            hi: {
+                title: "नासिक कुंभ मेला 2027",
+                subtitle: "आधिकारिक स्नान तिथियाँ • रामकुंड के पास होटल • यात्रा गाइड",
+                button: "स्नान तिथियाँ देखें"
+            }
+        };
 
+        function setLanguage(lang) {
+            document.getElementById("hero-title").innerText = translations[lang].title;
+            document.getElementById("hero-subtitle").innerText = translations[lang].subtitle;
+            document.getElementById("hero-btn").innerText = translations[lang].button;
+        }
+    </script>
 </body>
 
 </html>
