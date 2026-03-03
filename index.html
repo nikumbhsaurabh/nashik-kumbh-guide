@@ -34,60 +34,20 @@
 }
 </script>
 
-    <!-- FAQ Schema -->
-    <script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": [{
-   "@type": "Question",
-   "name": "When is Nashik Kumbh Mela 2027?",
-   "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "The main Shahi Snan events will be held between July and September 2027."
-   }
- },
- {
-   "@type": "Question",
-   "name": "Which area is best to stay during Kumbh?",
-   "acceptedAnswer": {
-     "@type": "Answer",
-     "text": "Ramkund and Panchavati are the best areas for pilgrims."
-   }
- }]
-}
-</script>
-
 </head>
 
 <body>
 
-    <div class="header">
-        <h1>🕉️ Nashik Kumbh Yatri Guide 2027</h1>
-        <p>Official Snan Dates • Hotels Near Ramkund • Travel Guide</p>
-    </div>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="overlay">
+            <h1>Nashik Kumbh Mela 2027</h1>
+            <p>Official Snan Dates • Hotels Near Ramkund • Travel Guide</p>
+            <a href="kumbh-snan-dates.html" class="hero-btn">Check Snan Dates</a>
+        </div>
+    </section>
 
-    <div class="countdown-box">
-        <h2>⏳ Countdown to Kumbh 2027</h2>
-        <p id="countdown" style="font-size:22px;font-weight:bold;"></p>
-    </div>
-
-    <script>
-        var countDownDate = new Date("July 15, 2027 00:00:00").getTime();
-        var x = setInterval(function () {
-            var now = new Date().getTime();
-            var distance = countDownDate - now;
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            document.getElementById("countdown").innerHTML =
-                days + " Days " + hours + " Hours Remaining";
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("countdown").innerHTML = "Kumbh Mela 2027 is Live!";
-            }
-        }, 1000);
-    </script>
-
+    <!-- NAVBAR -->
     <div class="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -100,6 +60,7 @@
         </ul>
     </div>
 
+    <!-- INTRO SECTION -->
     <div class="section">
         <h2>Welcome to Nashik Kumbh Mela 2027</h2>
         <p>
@@ -109,16 +70,19 @@
         </p>
     </div>
 
+    <!-- GALLERY SECTION -->
     <div class="section">
-        <h2>Important Information for Pilgrims</h2>
-        <ul>
-            <li>📅 <a href="kumbh-snan-dates.html">Check Official Shahi Snan Dates 2027</a></li>
-            <li>🏨 <a href="hotels-near-ramkund.html">Compare Hotels Near Ramkund & Panchavati</a></li>
-            <li>📘 <a href="kumbh-guide.html">Complete Travel & Planning Guide</a></li>
-            <li>📍 <a href="location.html">Ramkund Panchavati Location Map</a></li>
-        </ul>
+        <h2>Ramkund Glimpses</h2>
+        <div class="gallery">
+            <img src="images/gallery/ramkund_1.jpeg" alt="Ramkund Nashik During Aarti">
+            <img src="images/gallery/ramkund_2.jpg" alt="Panchavati crowd view">
+            <img src="images/gallery/ramkund_3.jpg" alt="Ramkund ghat and temple view">
+            <img src="images/gallery/ramkund_4.jpg" alt="Godavari">
+
+        </div>
     </div>
 
+    <!-- FOOTER -->
     <div class="footer">
         <p><strong>Nashik Kumbh Yatri Guide 2027</strong></p>
         <p>
