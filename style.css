@@ -67,6 +67,26 @@ body {
     background: #e6851a;
 }
 
+.lang-toggle {
+    margin-top: 20px;
+}
+
+.lang-toggle button {
+    background: white;
+    color: #333;
+    border: none;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.lang-toggle button:hover {
+    background: #ff9933;
+    color: white;
+}
+
 /* NAVBAR */
 .navbar {
     background: #222;
